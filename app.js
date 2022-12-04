@@ -1,9 +1,9 @@
 var translateButton = document.querySelector("#language-button");
 translateButton.addEventListener("click", buttonClickHandler)
-var translateInput = document.querySelector("#minions-input");
-var translateOutput = document.querySelector("#minions-output");
+var translateInput = document.querySelector("#dothrak-input");
+var translateOutput = document.querySelector("#dothrak-output");
 
-var url = "https://api.funtranslations.com/translate/minion.json"
+var url = "https://api.funtranslations.com/translate/yoda.json"
 
 
 function buttonClickHandler(event) {
