@@ -37,6 +37,16 @@ button {
     font-style: italic;
 }
 
+#minions-output {
+
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    padding: 1rem;
+    font-size: large;
+    border: 1px solid black;
+}
+
 footer {
     background-color:#facc15 ;
     text-align: center;
@@ -44,10 +54,4 @@ footer {
     padding: 1rem;
     font-weight: bold;
 
-}
-
-a {
-    text-decoration: dotted;
-    color:#7dd3fc;
-    font-style: initial;
 }
